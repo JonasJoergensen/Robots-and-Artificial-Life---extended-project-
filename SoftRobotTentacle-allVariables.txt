@@ -1,0 +1,55 @@
+
+//Main cone and mold
+h = 180; //Cone height
+maxDiam = 45; //Cone
+minDiam = 35; //Cone
+centerSolidDiam=15;
+moldWallThickness = 3;
+footDiam=100; //Foot for mold
+siliconeThickness=3; //Outer
+dividersThickness = 5;
+////Assembly on the sides of mold////
+numberOfHoles = 4;
+screwSize=5;
+assemblyWidth= 22;
+
+//Bottom [CHANGED!!!!!]
+straightHeightBottom = 20;
+bottomThickness=4;
+LDRHolderThickness= 10;
+LDRHolderDiam= minDiam+3;
+delta=0.4; //Inaccuracy of printer (layering and overextrusion)
+LDRHoleDepth=8;//
+LDRHolderThickness = 8 +2.5;
+LDRDiam=5; //MEASURED
+LDRWireHolesDist=2.5;//MEASURED distance between wires on LDR
+LDRWireHolesSize=0.7; //Measured to 0.5mm
+LDRHoleDist = LDRHolderDiam/2-LDRDiam/2-1;
+LDRNumber=3;
+centerHoleDiam=3; //Only used for thread
+
+
+//Top part
+straightHeight= 30; 
+wiresDiameter=5; 
+
+//Joints
+jointThickness = 3;
+
+//Assembly
+numberOfHoles = 4;
+screwSize=5;
+
+
+//Finishing mold:
+finMoldHeight=25;
+finMoldWidth=30;
+supportMoldLength=60;
+supportMoldWidth=30;
+FinalBottomThickness =8;
+
+
+//Plant part
+plantHoleDiam=17;
+plantScrewsDiam=3.5;
+
